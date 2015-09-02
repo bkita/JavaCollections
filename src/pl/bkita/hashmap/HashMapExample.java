@@ -23,13 +23,13 @@ public class HashMapExample {
 		namesMap.put(5, "Zenek");
 		namesMap.put(6, "Alibaba");
 		namesMap.put(1, "Antek");
-		
+
 		Map<Integer, String> sortedMap = sortByValue(namesMap);
-		
+
 		for (Map.Entry<Integer, String> entry : sortedMap.entrySet()) {
 			System.out.println(entry.getValue());
 		}
-		
+
 	}
 
 	private static Map sortByValue(Map map) {
